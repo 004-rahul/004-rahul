@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300">
+<defs>
+<linearGradient id="p1"><stop stop-color="#0b1d2d"/><stop offset="1" stop-color="#0b1222"/></linearGradient>
+<style>
+.card{fill:url(#p1);stroke:#1b4964;stroke-width:1.5}
+.sweep{animation:s 5s ease-in-out infinite}
+@keyframes s{0%,100%{transform:translateX(-350px);opacity:0}35%{opacity:.8}65%{opacity:.2}100%{transform:translateX(1450px);opacity:0}}
+</style></defs>
+<rect width="1200" height="300" rx="24" fill="#050914"/>
+<g>
+<rect class="card" x="35" y="45" width="350" height="210" rx="20"/>
+<text x="65" y="82" font-family="Inter,Segoe UI" font-size="22" font-weight="800" fill="#fff">AI + RAG Backend</text>
+<text x="65" y="112" font-family="JetBrains Mono" font-size="11" fill="#63cde6">RETRIEVAL / EMBEDDINGS / CITATIONS</text>
+<path d="M65 150H355" stroke="#193c53"/><circle cx="90" cy="185" r="10" fill="#26dfff"/><circle cx="160" cy="185" r="10" fill="#7b76ff"/><circle cx="230" cy="185" r="10" fill="#26dfff"/><circle cx="300" cy="185" r="10" fill="#35e6b0"/>
+<path d="M100 185H150M170 185H220M240 185H290" stroke="#3b8da9" stroke-width="2"/>
+<text x="65" y="225" font-family="JetBrains Mono" font-size="11" fill="#668da1">grounded output • evaluation • latency</text>
+</g>
+<g>
+<rect class="card" x="425" y="45" width="350" height="210" rx="20"/>
+<text x="455" y="82" font-family="Inter,Segoe UI" font-size="22" font-weight="800" fill="#fff">Distributed Jobs</text>
+<text x="455" y="112" font-family="JetBrains Mono" font-size="11" fill="#63cde6">QUEUE / WORKERS / FAILURE RECOVERY</text>
+<path d="M455 160H745" stroke="#193c53"/><rect x="455" y="180" width="65" height="30" rx="8" fill="#0d2637" stroke="#27dfff"/><rect x="545" y="180" width="65" height="30" rx="8" fill="#0d2637" stroke="#27dfff"/><rect x="635" y="180" width="65" height="30" rx="8" fill="#0d2637" stroke="#7c78ff"/><path d="M520 195H545M610 195H635" stroke="#3b8da9"/>
+<text x="455" y="225" font-family="JetBrains Mono" font-size="11" fill="#668da1">idempotency • retry • DLQ • p99</text>
+</g>
+<g>
+<rect class="card" x="815" y="45" width="350" height="210" rx="20"/>
+<text x="845" y="82" font-family="Inter,Segoe UI" font-size="22" font-weight="800" fill="#fff">MCP + AI Tools</text>
+<text x="845" y="112" font-family="JetBrains Mono" font-size="11" fill="#63cde6">MODEL → TOOLS → VALIDATED RESULT</text>
+<circle cx="985" cy="188" r="42" fill="#10223b" stroke="#35dfff"/><circle cx="985" cy="188" r="23" fill="#2ddfff" opacity=".18"/>
+<path d="M845 188H935M1035 188H1125" stroke="#3b8da9" stroke-width="2"/>
+<text x="845" y="225" font-family="JetBrains Mono" font-size="11" fill="#668da1">discovery • permissions • orchestration</text>
+</g>
+<rect class="sweep" x="0" y="45" width="4" height="210" fill="#48eaff" opacity=".5"/>
+</svg>

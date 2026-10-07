@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 460">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#050914"/><stop offset=".5" stop-color="#08152a"/><stop offset="1" stop-color="#030711"/></linearGradient>
+  <radialGradient id="aurora"><stop stop-color="#19d3ff" stop-opacity=".48"/><stop offset=".55" stop-color="#536dff" stop-opacity=".15"/><stop offset="1" stop-color="#000" stop-opacity="0"/></radialGradient>
+  <linearGradient id="title"><stop stop-color="#fff"/><stop offset=".45" stop-color="#72e8ff"/><stop offset="1" stop-color="#7c8cff"/></linearGradient>
+  <filter id="glow"><feGaussianBlur stdDeviation="8"/></filter>
+  <filter id="soft"><feGaussianBlur stdDeviation="22"/></filter>
+  <pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse"><path d="M42 0H0V42" fill="none" stroke="#17314b" stroke-opacity=".42"/></pattern>
+  <style>
+    .aur{animation:drift 12s ease-in-out infinite alternate}
+    .aur2{animation:drift2 15s ease-in-out infinite alternate}
+    .pulse{animation:pulse 2.8s ease-in-out infinite}
+    .pulse2{animation:pulse 3.7s ease-in-out infinite .8s}
+    .orbit{transform-origin:700px 225px;animation:spin 18s linear infinite}
+    .orbit2{transform-origin:700px 225px;animation:spin 25s linear infinite reverse}
+    .scan{animation:scan 5s ease-in-out infinite}
+    .blink{animation:blink 2s steps(2,end) infinite}
+    @keyframes drift{to{transform:translate(80px,18px) scale(1.12)}}
+    @keyframes drift2{to{transform:translate(-65px,-24px) scale(.92)}}
+    @keyframes pulse{50%{opacity:.3;transform:scale(.55)}}
+    @keyframes spin{to{transform:rotate(360deg)}}
+    @keyframes scan{0%,100%{opacity:0;transform:translateX(-300px)}45%,65%{opacity:.7}80%{opacity:0;transform:translateX(1700px)}}
+    @keyframes blink{50%{opacity:.25}}
+  </style>
+</defs>
+<rect width="1400" height="460" rx="24" fill="url(#bg)"/>
+<rect width="1400" height="460" fill="url(#grid)" opacity=".72"/>
+<ellipse class="aur" cx="300" cy="70" rx="300" ry="170" fill="url(#aurora)" filter="url(#soft)"/>
+<ellipse class="aur2" cx="1120" cy="390" rx="360" ry="180" fill="url(#aurora)" filter="url(#soft)"/>
+<g opacity=".7" stroke="#1bcfff" fill="none">
+  <path d="M0 320 C220 260 330 380 540 315 S930 260 1400 330" stroke-opacity=".18"/>
+  <path d="M0 350 C240 290 360 410 580 345 S980 300 1400 360" stroke-opacity=".12"/>
+</g>
+
+<!-- network -->
+<g stroke="#28cfff" stroke-opacity=".22" fill="#59e8ff">
+  <path d="M70 105L210 170L330 85L470 145L560 72"/>
+  <path d="M840 90L960 150L1100 72L1280 150"/>
+  <path d="M120 360L280 300L420 370L520 320"/>
+  <path d="M880 340L1010 285L1160 365L1300 300"/>
+  <g class="pulse"><circle cx="210" cy="170" r="4"/><circle cx="960" cy="150" r="4"/><circle cx="420" cy="370" r="4"/></g>
+  <g class="pulse2"><circle cx="330" cy="85" r="3"/><circle cx="1100" cy="72" r="3"/><circle cx="1160" cy="365" r="3"/></g>
+</g>
+
+<!-- central glass card -->
+<rect x="300" y="108" width="800" height="244" rx="28" fill="#07101f" fill-opacity=".72" stroke="#4adfff" stroke-opacity=".25"/>
+<rect x="315" y="123" width="770" height="214" rx="20" fill="none" stroke="#fff" stroke-opacity=".05"/>
+
+<g class="orbit" fill="none" stroke="#2bdcff" stroke-opacity=".35">
+ <ellipse cx="700" cy="225" rx="315" ry="74"/>
+ <ellipse cx="700" cy="225" rx="250" ry="48" transform="rotate(28 700 225)"/>
+</g>
+<g class="orbit2" fill="none" stroke="#7888ff" stroke-opacity=".24">
+ <ellipse cx="700" cy="225" rx="345" ry="100" transform="rotate(-18 700 225)"/>
+</g>
+
+<text x="700" y="185" text-anchor="middle" font-family="Inter,Segoe UI,sans-serif" font-size="46" font-weight="800" letter-spacing="7" fill="url(#title)">RAHUL PATEL</text>
+<text x="700" y="226" text-anchor="middle" font-family="Inter,Segoe UI,sans-serif" font-size="17" font-weight="600" letter-spacing="5" fill="#d8f8ff">BACKEND ENGINEER  ·  AI SYSTEMS</text>
+<text x="700" y="258" text-anchor="middle" font-family="JetBrains Mono,monospace" font-size="13" letter-spacing="2.5" fill="#77b9d2">.NET  /  DISTRIBUTED SYSTEMS  /  RAG  /  MCP  /  AWS</text>
+<text x="700" y="299" text-anchor="middle" font-family="JetBrains Mono,monospace" font-size="12" fill="#5c8da5">PRODUCTION BACKENDS THAT SCALE, RECOVER &amp; REASON</text>
+<circle class="blink" cx="700" cy="327" r="3.5" fill="#35f2b1"/>
+<text x="716" y="331" font-family="JetBrains Mono,monospace" font-size="11" fill="#6fa6b8">SYSTEM ONLINE</text>
+
+<g class="scan"><rect x="0" y="60" width="2" height="340" fill="#42e8ff" filter="url(#glow)"/></g>
+<path d="M30 30h60M30 30v60M1370 30h-60M1370 30v60M30 430h60M30 430v-60M1370 430h-60M1370 430v-60" stroke="#35dfff" stroke-opacity=".55" fill="none"/>
+</svg>
