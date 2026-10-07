@@ -1,158 +1,148 @@
 <div align="center">
 
-# RAHUL PATEL
-
-### Backend Engineer
-
-**C# / .NET · AWS · MSSQL · Distributed Systems · AI**
-
-Building production backend systems and AI-native software systems that solve real business problems at scale.
-
-[LinkedIn](https://www.linkedin.com/in/rahul-patel-889459229/) · [Email](mailto:rahulpatel.dev.in@gmail.com)
+<img src="assets/hero.svg" width="100%" alt="Rahul Patel, Backend Engineer. C# / .NET, AWS, SQL, distributed systems, AI." />
 
 </div>
 
-<p align="center">
-  <img src="./assets/engineering-signal.svg" alt="Engineering systems visualization" width="100%"/>
-</p>
+<br>
 
----
+## What I have shipped
 
-## WHAT I HAVE SHIPPED
+<img src="assets/shipped.svg" width="100%" alt="Email processing cut from 7-10 hours to about 1-1.5 hours (about 80% faster). Documents grew from 3M to 6M while processing went from 15-20 minutes to 3-4 minutes, and 11 queries became 2 set-based executions." />
 
-Real production problems turned into measurable improvements.
+Production work across high-volume ingestion, multi-tenant SaaS, APIs, background processing, SQL optimization and event-driven systems.
 
-| Production work | Result |
+<br>
+
+## Systems I work with
+
+| | |
 |---|---|
-| **Email processing pipeline** | **7–10 hours → ~1–1.5 hours** · ~80% faster |
-| **Document eligibility processing** | **3M → 6M documents** · **15–20 min → 3–4 min** |
-| **Query optimization** | **11 similar queries → 2 set-based executions** |
+| **Multi-tenant SaaS** | **Event-driven processing** |
+| **High-volume ingestion** | **Background / queue workers** |
+| **Multi-million document data** | **Real-time communication** |
+| **Third-party integrations** | |
 
-Production work includes high-volume ingestion, multi-tenant SaaS, APIs, background processing, SQL optimization, queue-based processing, event-driven systems and third-party integrations.
+<br>
 
-<p align="center">
-  <img src="./assets/impact.svg" alt="Production impact" width="92%"/>
-</p>
+## Engineering depth
 
----
+<table>
+<tr>
+<td valign="top" width="25%">
 
-## SYSTEMS I WORK WITH
+**C# / .NET**<br>
+OOP · SOLID · Generics · LINQ · EF Core · Async / Await · Concurrency · Multithreading · Memory / Runtime · Dependency Injection · Middleware · Background Services
 
-- **Multi-tenant SaaS**
-- **High-volume ingestion**
-- **Multi-million document/data workloads**
-- **Event-driven processing**
-- **Queue and background workers**
-- **Real-time communication**
-- **Third-party integrations**
-- **Secure and reliable backend systems**
+</td>
+<td valign="top" width="25%">
 
----
+**Problem solving**<br>
+DSA · Algorithms · Big-O · Arrays · Strings · Hashing · Trees · Graphs · Sliding Window · Two Pointers · Recursion · Dynamic Programming
 
-## TECHNICAL SKILLS
+</td>
+<td valign="top" width="25%">
 
-### Backend & Frameworks
-`C#` ` .NET Core` `ASP.NET Core` `ASP.NET MVC` `ASP.NET Web API` `EF Core` `LINQ` `Dependency Injection` `Middleware` `Async/Await` `Concurrency` `Multithreading` `Background Services`
+**System design**<br>
+Distributed Systems · Caching · Messaging · Queues · Rate Limiting · Idempotency · Retries · Circuit Breakers · High Availability · Scalability · Observability · Microservices · CQRS · Event-driven Architecture
 
-### Data & Storage
-`MSSQL` `PostgreSQL` `T-SQL` `Stored Procedures` `Query Optimization` `Indexing` `Execution Plans` `Redis` `Caching`
+</td>
+<td valign="top" width="25%">
 
-### Cloud & Messaging
-`AWS` `SES` `EventBridge` `SQS` `RabbitMQ` `Event-Driven Architecture` `Queue-Based Processing` `Concurrent Consumers`
+**Engineering practice**<br>
+Debugging · Performance Optimization · Code Review · Unit Testing · xUnit · API Design · Security · Production Troubleshooting · Technical Trade-offs
 
-### API, Security & Integrations
-`REST APIs` `Swagger` `JWT` `OAuth 2.0` `Role-Based Access` `SignalR` `WebSockets` `FCM` `Stripe` `PayPal` `CCAvenue` `Vonage` `Google Maps` `Third-Party APIs`
+</td>
+</tr>
+</table>
 
-### Engineering
-`SOLID` `Design Patterns` `Unit Testing` `xUnit` `Code Review` `Debugging` `Performance Optimization` `Agile/Scrum` `SDLC`
+<br>
 
----
+## Technical system
 
-## TOOLCHAIN
+| | |
+|---|---|
+| **Backend** | C# · .NET Core · .NET Framework · ASP.NET Core · ASP.NET MVC · ASP.NET Web API · EF Core · LINQ |
+| **Data** | SQL Server · PostgreSQL · T-SQL · Stored Procedures · Indexing · Execution Plans · Query Optimization · Redis · Caching |
+| **Cloud / Messaging** | AWS · SES · EventBridge · SQS · RabbitMQ · Event-driven Systems · Queue-based Processing |
+| **API / Security** | REST · Swagger · JWT · OAuth 2.0 · Role-based Access |
+| **Integrations** | SignalR · WebSockets · FCM · Stripe · PayPal · CCAvenue · Vonage · Google Maps · Third-party APIs |
 
-`VS Code` · `Visual Studio` · `Git` · `GitHub` · `Docker` · `Postman` · `SQL Server / SSMS` · `pgAdmin` · `AWS` · `Azure DevOps / TFS`
+<br>
 
----
+## Toolchain
 
-## ENGINEERING DEPTH
+| Build | Data | Delivery | Test / Debug |
+|---|---|---|---|
+| Visual Studio | SQL Server | Docker | Postman |
+| VS Code | PostgreSQL | AWS | xUnit |
+| Git | pgAdmin | Azure DevOps | |
+| GitHub | SSMS | TFS | |
+| | Redis | | |
 
-### C# / .NET
-OOP · SOLID · Generics & Collections · LINQ · Async/Concurrency · Memory & Runtime · Design Patterns · Middleware · Dependency Injection
+<br>
 
-### DSA & Problem Solving
-Data Structures · Algorithms · Big-O · Arrays · Strings · Hashing · Trees · Graphs · Recursion · Dynamic Programming · Pattern Recognition
+## AI engineering
 
-### System Design & Architecture
-Distributed Systems · Scalability · Reliability · Caching · Messaging · Rate Limiting · Idempotency · Retries · Circuit Breakers · High Availability · Microservices · Event-Driven Architecture · Observability · Design Trade-offs
+Knowledge areas I'm building toward AI backend systems with.
 
-### Engineering Practice
-Debugging · Performance Analysis · Unit Testing · Code Review · Security · Production Troubleshooting · Technical Trade-offs · Technical Communication
+<table>
+<tr>
+<td valign="top" width="25%">
 
----
+**LLM fundamentals**<br>
+LLM API Integration · Input / Output · Tokens · Context Windows · Prompt / Response · Model Parameters · Model Selection · Local Models
 
-## AI ENGINEERING
+</td>
+<td valign="top" width="25%">
 
-AI is the direction I am building toward from a backend engineering foundation.
+**AI applications**<br>
+AI-assisted Development · LLM Integration · Structured Output · Tool Calling · Function Calling · Streaming · Model Routing
 
-**LLM fundamentals**  
-Model interaction · tokens · context windows · prompt engineering · model parameters · local models · model selection
+</td>
+<td valign="top" width="25%">
 
-**LLM application engineering**  
-LLM API integration · structured output · tool/function calling · streaming · model routing
+**Retrieval**<br>
+Embeddings · Chunking · Vector Search · Semantic Search · Hybrid Search · RAG · Re-ranking · pgvector
 
-**RAG & retrieval**  
-Embeddings · chunking · vector search · semantic search · hybrid search · reranking · pgvector · grounded generation
+</td>
+<td valign="top" width="25%">
 
-**Agentic systems**  
-MCP · tool use · memory · planning · multi-agent workflows · guardrails · prompt-injection awareness · AI monitoring
+**Agentic systems**<br>
+MCP · Agentic AI · Memory · Planning · Tool Use · Multi-Agent Workflows · Guardrails · Prompt Injection · AI Monitoring
 
-**Platforms / local AI**  
-Azure OpenAI · Ollama · LM Studio
+</td>
+</tr>
+</table>
 
----
+<br>
 
-## PROJECT ZERO
+## Project Zero
 
-<p align="center">
-  <img src="./assets/project-zero.svg" alt="Project Zero" width="88%"/>
-</p>
+**AI-native software infrastructure for organizations.**
 
-**Project Zero** is a personal SaaS-level project focused on helping organizations integrate AI with their existing systems and automate daily work through intelligent workflows.
+A SaaS-level platform focused on connecting AI with existing business systems and turning AI capabilities into useful organizational workflows.
 
-> Public profile view: high-level only. Internal strategy, architecture decisions and private product details are intentionally not included here.
+<img src="assets/project-zero.svg" width="100%" alt="Project Zero connects existing business systems (data, tools, knowledge) to AI and intelligence, producing business work." />
 
----
+<br>
 
-## AI × BACKEND
+## AI × Backend
 
-```text
-BACKEND ENGINEERING
-APIs · Data · Queues · Caching · Distributed Systems · Security
-                         │
-                         ▼
-                  AI BACKEND SYSTEMS
-          LLMs · Retrieval · RAG · Tools · MCP
-                         │
-                         ▼
-                    PROJECT ZERO
-```
+<img src="assets/ai-backend.svg" width="100%" alt="Backend engineering (APIs, data, queues, caching, distributed systems, security) leads to AI backend systems (LLMs, retrieval, RAG, tools, MCP, agents), which leads to Project Zero." />
 
----
+<br>
 
-## ENGINEERING COMMUNICATION
+## Engineering communication
 
-I focus on being able to explain:
+Explain the problem. Explain the trade-off. Explain the failure. Explain the decision. Explain the result.
 
-**The problem → the trade-off → the failure → the decision → the result**
+DSA reasoning · System design discussion · Production incident analysis · Technical trade-offs · STAR-based experience · Code review · Cross-functional communication
 
-DSA reasoning · system design discussions · production incident analysis · technical trade-offs · code review · clear collaboration
+<br>
 
----
+## Connect
 
-<div align="center">
+**Rahul Patel** · Backend Engineer · AI Backend Systems
 
-### Backend systems first. AI systems next.
-
-[LinkedIn](https://www.linkedin.com/in/rahul-patel-889459229/) · [rahulpatel.dev.in@gmail.com](mailto:rahulpatel.dev.in@gmail.com)
-
-</div>
+[LinkedIn](https://www.linkedin.com/in/rahul-patel-889459229) · [rahulpatel.dev.in@gmail.com](mailto:rahulpatel.dev.in@gmail.com)

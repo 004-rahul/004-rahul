@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 900 400" width="900" height="400" role="img" aria-label="Rahul Patel, Backend Engineer. Engineering signal animation.">
+<title>Rahul Patel, Backend Engineer. Engineering signal animation.</title>
+<defs>
+<linearGradient id="acc" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#4f9cf9"/><stop offset="1" stop-color="#a78bfa"/></linearGradient>
+<linearGradient id="fade" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#4f9cf9" stop-opacity="0"/><stop offset=".5" stop-color="#4f9cf9" stop-opacity=".9"/><stop offset="1" stop-color="#a78bfa" stop-opacity="0"/></linearGradient>
+<radialGradient id="vig" cx=".5" cy=".5" r=".75"><stop offset=".55" stop-color="#0b0f14" stop-opacity="0"/><stop offset="1" stop-color="#0b0f14" stop-opacity=".85"/></radialGradient>
+<pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse"><path d="M30 0H0V30" fill="none" stroke="#151d29" stroke-width="1"/><animateTransform attributeName="patternTransform" type="translate" from="0 0" to="30 30" dur="12s" repeatCount="indefinite"/></pattern>
+</defs>
+<rect width="900" height="400" rx="14" fill="#0b0f14"/>
+<rect width="900" height="400" rx="14" fill="url(#grid)"/><rect width="900" height="400" rx="14" fill="url(#vig)"/>
+<rect x=".5" y=".5" width="899" height="399" rx="14" fill="none" stroke="#1f2937"/>
+<clipPath id="wc"><rect x="530" y="60" width="330" height="100"/></clipPath>
+<g clip-path="url(#wc)" fill="none" stroke-linecap="round">
+<g transform="translate(0 95)"><path d="M400 0 q20 -22 40 0 t40 0 t40 0 t40 0 t40 0 t40 0 t40 0 t40 0 t40 0 t40 0 t40 0 t40 0 t40 0 t40 0 t40 0 t40 0 t40 0" stroke="url(#fade)" stroke-width="1" opacity="0.40"><animateTransform attributeName="transform" type="translate" from="0 0" to="-80 0" dur="14s" repeatCount="indefinite"/></path></g>
+<g transform="translate(0 110)"><path d="M400 0 q20 -22 40 0 t40 0 t40 0 t40 0 t40 0 t40 0 t40 0 t40 0 t40 0 t40 0 t40 0 t40 0 t40 0 t40 0 t40 0 t40 0 t40 0" stroke="url(#fade)" stroke-width="1.4" opacity="0.88"><animateTransform attributeName="transform" type="translate" from="0 0" to="-80 0" dur="9s" repeatCount="indefinite"/></path></g>
+<g transform="translate(0 125)"><path d="M400 0 q20 -22 40 0 t40 0 t40 0 t40 0 t40 0 t40 0 t40 0 t40 0 t40 0 t40 0 t40 0 t40 0 t40 0 t40 0 t40 0 t40 0 t40 0" stroke="url(#fade)" stroke-width="1" opacity="0.48"><animateTransform attributeName="transform" type="translate" from="0 0" to="-80 0" dur="12s" repeatCount="indefinite"/></path></g>
+</g>
+<text x="60" y="96" font-family="'Segoe UI', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="46" font-weight="700" letter-spacing="5" fill="#e6edf3">RAHUL PATEL</text>
+<text x="62" y="130" font-family="'Segoe UI', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="15" letter-spacing="6" fill="#8b98a9">BACKEND ENGINEER</text>
+<text x="62" y="156" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="12" letter-spacing="1.5" fill="#5b6b80">C# / .NET  ·  AWS  ·  SQL  ·  DISTRIBUTED SYSTEMS  ·  AI</text>
+<text x="62" y="204" font-family="'Segoe UI', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="19" fill="#c9d4e0">Building production backend systems</text>
+<text x="62" y="230" font-family="'Segoe UI', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="19" fill="#c9d4e0">and AI-native software systems.</text>
+<text x="110" y="283" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="14" letter-spacing="3" fill="#5b6b80">.NET<animate attributeName="fill" values="#5b6b80;#e6edf3;#5b6b80" dur="6s" begin="0.0s" repeatCount="indefinite"/></text>
+<path d="M110 294 C110 318 450 312 450 334" fill="none" stroke="#4f9cf9" stroke-opacity=".5" stroke-width="1" stroke-dasharray="3 6"><animate attributeName="stroke-dashoffset" from="18" to="0" dur="1.8s" repeatCount="indefinite"/></path>
+<text x="280" y="283" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="14" letter-spacing="3" fill="#5b6b80">SQL<animate attributeName="fill" values="#5b6b80;#e6edf3;#5b6b80" dur="6s" begin="0.7s" repeatCount="indefinite"/></text>
+<path d="M280 294 C280 318 450 312 450 334" fill="none" stroke="#4f9cf9" stroke-opacity=".5" stroke-width="1" stroke-dasharray="3 6"><animate attributeName="stroke-dashoffset" from="18" to="0" dur="1.8s" repeatCount="indefinite"/></path>
+<text x="450" y="283" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="14" letter-spacing="3" fill="#5b6b80">AWS<animate attributeName="fill" values="#5b6b80;#e6edf3;#5b6b80" dur="6s" begin="1.4s" repeatCount="indefinite"/></text>
+<path d="M450 294 C450 318 450 312 450 334" fill="none" stroke="#4f9cf9" stroke-opacity=".5" stroke-width="1" stroke-dasharray="3 6"><animate attributeName="stroke-dashoffset" from="18" to="0" dur="1.8s" repeatCount="indefinite"/></path>
+<text x="620" y="283" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="14" letter-spacing="3" fill="#5b6b80">QUEUES<animate attributeName="fill" values="#5b6b80;#e6edf3;#5b6b80" dur="6s" begin="2.0999999999999996s" repeatCount="indefinite"/></text>
+<path d="M620 294 C620 318 450 312 450 334" fill="none" stroke="#4f9cf9" stroke-opacity=".5" stroke-width="1" stroke-dasharray="3 6"><animate attributeName="stroke-dashoffset" from="18" to="0" dur="1.8s" repeatCount="indefinite"/></path>
+<text x="790" y="283" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="14" letter-spacing="3" fill="#5b6b80">SCALE<animate attributeName="fill" values="#5b6b80;#e6edf3;#5b6b80" dur="6s" begin="2.8s" repeatCount="indefinite"/></text>
+<path d="M790 294 C790 318 450 312 450 334" fill="none" stroke="#4f9cf9" stroke-opacity=".5" stroke-width="1" stroke-dasharray="3 6"><animate attributeName="stroke-dashoffset" from="18" to="0" dur="1.8s" repeatCount="indefinite"/></path>
+<text x="450" y="352" text-anchor="middle" font-family="'Segoe UI', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="600" letter-spacing="7" fill="#e6edf3">ENGINEERING</text>
+<path d="M450 360 V376 M445 371 L450 377 L455 371" fill="none" stroke="#8b98a9" stroke-width="1.2"/>
+<text x="450" y="394" text-anchor="middle" font-family="'Segoe UI', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="700" letter-spacing="7" fill="url(#acc)">AI SYSTEMS<animate attributeName="opacity" values="1;.55;1" dur="4s" repeatCount="indefinite"/></text>
+</svg>

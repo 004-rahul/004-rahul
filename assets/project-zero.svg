@@ -1,20 +1,41 @@
-<svg width="1200" height="260" viewBox="0 0 1200 260" fill="none" xmlns="http://www.w3.org/2000/svg">
-<style>
-.bg{fill:#F8FBFF}.t{font-family:Arial,sans-serif;fill:#26364A;font-weight:700}.s{font-family:Arial,sans-serif;fill:#65758A}.box{fill:white;stroke:#D7E4F0}.core{animation:b 4s ease-in-out infinite;transform-box:fill-box;transform-origin:center}@keyframes b{50%{transform:translateY(-5px)}}.flow{stroke-dasharray:7 10;animation:f 2.5s linear infinite}@keyframes f{to{stroke-dashoffset:-60}}
-</style>
-<rect width="1200" height="260" rx="18" class="bg"/>
-<rect x="30" y="35" width="275" height="190" rx="15" class="box"/>
-<rect x="895" y="35" width="275" height="190" rx="15" class="box"/>
-<text x="58" y="70" class="t" font-size="17">EXISTING SYSTEMS</text>
-<text x="58" y="104" class="s" font-size="14">CRM</text><text x="58" y="132" class="s" font-size="14">ERP</text><text x="58" y="160" class="s" font-size="14">DATABASES</text><text x="58" y="188" class="s" font-size="14">APIs / TOOLS</text>
-<text x="923" y="70" class="t" font-size="17">AI CAPABILITIES</text>
-<text x="923" y="104" class="s" font-size="14">LLMs</text><text x="923" y="132" class="s" font-size="14">MCP / TOOLS</text><text x="923" y="160" class="s" font-size="14">WORKFLOWS</text><text x="923" y="188" class="s" font-size="14">BUSINESS ACTIONS</text>
-<path d="M305 130H455" stroke="#1677FF" stroke-width="3" class="flow"/><path d="M745 130H895" stroke="#18A999" stroke-width="3" class="flow"/>
-<g class="core">
-<path d="M455 105L600 70L745 105L600 140L455 105Z" fill="#7657FF"/>
-<path d="M455 105V143L600 178L745 143V105L600 140L455 105Z" fill="#2E8BFF" opacity=".8"/>
-<path d="M455 143V181L600 216L745 181V143L600 178L455 143Z" fill="#16A66F" opacity=".85"/>
-<text x="557" y="120" fill="white" font-family="Arial" font-size="18" font-weight="800">PROJECT ZERO</text>
-</g>
-<text x="520" y="242" class="t" font-size="14">INTEGRATE  •  AUTOMATE  •  SCALE</text>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 900 450" width="900" height="450" role="img" aria-label="Project Zero concept: existing business systems connect through data, tools and knowledge into Project Zero, then AI and intelligence, then business work.">
+<title>Project Zero concept: existing business systems connect through data, tools and knowledge into Project Zero, then AI and intelligence, then business work.</title>
+<defs>
+<linearGradient id="acc" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#4f9cf9"/><stop offset="1" stop-color="#a78bfa"/></linearGradient>
+<linearGradient id="fade" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#4f9cf9" stop-opacity="0"/><stop offset=".5" stop-color="#4f9cf9" stop-opacity=".9"/><stop offset="1" stop-color="#a78bfa" stop-opacity="0"/></linearGradient>
+<radialGradient id="vig" cx=".5" cy=".5" r=".75"><stop offset=".55" stop-color="#0b0f14" stop-opacity="0"/><stop offset="1" stop-color="#0b0f14" stop-opacity=".85"/></radialGradient>
+<pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse"><path d="M30 0H0V30" fill="none" stroke="#151d29" stroke-width="1"/><animateTransform attributeName="patternTransform" type="translate" from="0 0" to="30 30" dur="12s" repeatCount="indefinite"/></pattern>
+</defs>
+<rect width="900" height="450" rx="14" fill="#0b0f14"/>
+<rect width="900" height="450" rx="14" fill="url(#grid)" opacity=".6"/><rect x=".5" y=".5" width="899" height="449" rx="14" fill="none" stroke="#1f2937"/>
+<rect x="300" y="26" width="300" height="44" rx="10" fill="#11171f" stroke="#1f2937"/>
+<text x="450.0" y="53.0" text-anchor="middle" font-family="'Segoe UI', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="600" letter-spacing="3" fill="#e6edf3">EXISTING BUSINESS SYSTEMS</text>
+<path id="p0" d="M450 70 C450 94 190 90 190 114" fill="none" stroke="#4f9cf9" stroke-opacity=".35" stroke-width="1"/>
+<circle r="3" fill="#4f9cf9"><animateMotion dur="3s" begin="0.0s" repeatCount="indefinite"><mpath href="#p0"/></animateMotion><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.15;.85;1" dur="3s" begin="0.0s" repeatCount="indefinite"/></circle>
+<path id="p1" d="M450 70 C450 94 450 90 450 114" fill="none" stroke="#4f9cf9" stroke-opacity=".35" stroke-width="1"/>
+<circle r="3" fill="#4f9cf9"><animateMotion dur="3s" begin="0.4s" repeatCount="indefinite"><mpath href="#p1"/></animateMotion><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.15;.85;1" dur="3s" begin="0.4s" repeatCount="indefinite"/></circle>
+<path id="p2" d="M450 70 C450 94 710 90 710 114" fill="none" stroke="#4f9cf9" stroke-opacity=".35" stroke-width="1"/>
+<circle r="3" fill="#4f9cf9"><animateMotion dur="3s" begin="0.8s" repeatCount="indefinite"><mpath href="#p2"/></animateMotion><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.15;.85;1" dur="3s" begin="0.8s" repeatCount="indefinite"/></circle>
+<rect x="90" y="114" width="200" height="44" rx="10" fill="#11171f" stroke="#1f2937"/>
+<text x="190.0" y="141.0" text-anchor="middle" font-family="'Segoe UI', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="600" letter-spacing="3" fill="#8b98a9">DATA</text>
+<rect x="350" y="114" width="200" height="44" rx="10" fill="#11171f" stroke="#1f2937"/>
+<text x="450.0" y="141.0" text-anchor="middle" font-family="'Segoe UI', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="600" letter-spacing="3" fill="#8b98a9">TOOLS</text>
+<rect x="610" y="114" width="200" height="44" rx="10" fill="#11171f" stroke="#1f2937"/>
+<text x="710.0" y="141.0" text-anchor="middle" font-family="'Segoe UI', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="600" letter-spacing="3" fill="#8b98a9">KNOWLEDGE</text>
+<path id="p3" d="M190 158 C190 196 450 184 450 222" fill="none" stroke="#4f9cf9" stroke-opacity=".35" stroke-width="1"/>
+<circle r="3" fill="#4f9cf9"><animateMotion dur="3s" begin="1.9s" repeatCount="indefinite"><mpath href="#p3"/></animateMotion><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.15;.85;1" dur="3s" begin="1.9s" repeatCount="indefinite"/></circle>
+<path id="p4" d="M450 158 C450 196 450 184 450 222" fill="none" stroke="#4f9cf9" stroke-opacity=".35" stroke-width="1"/>
+<circle r="3" fill="#4f9cf9"><animateMotion dur="3s" begin="2.2s" repeatCount="indefinite"><mpath href="#p4"/></animateMotion><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.15;.85;1" dur="3s" begin="2.2s" repeatCount="indefinite"/></circle>
+<path id="p5" d="M710 158 C710 196 450 184 450 222" fill="none" stroke="#4f9cf9" stroke-opacity=".35" stroke-width="1"/>
+<circle r="3" fill="#4f9cf9"><animateMotion dur="3s" begin="2.5s" repeatCount="indefinite"><mpath href="#p5"/></animateMotion><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.15;.85;1" dur="3s" begin="2.5s" repeatCount="indefinite"/></circle>
+<rect x="320" y="222" width="260" height="62" rx="12" fill="#11171f" stroke="url(#acc)" stroke-width="1.6"><animate attributeName="stroke-opacity" values="1;.5;1" dur="4s" repeatCount="indefinite"/></rect>
+<text x="450" y="260" text-anchor="middle" font-family="'Segoe UI', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="19" font-weight="700" letter-spacing="5" fill="#e6edf3">PROJECT ZERO</text>
+<path id="p6" d="M450 284 V316" fill="none" stroke="#4f9cf9" stroke-opacity=".35" stroke-width="1"/>
+<circle r="3" fill="#4f9cf9"><animateMotion dur="1.8s" begin="0s" repeatCount="indefinite"><mpath href="#p6"/></animateMotion><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.15;.85;1" dur="1.8s" begin="0s" repeatCount="indefinite"/></circle>
+<rect x="335" y="316" width="230" height="42" rx="10" fill="#11171f" stroke="#1f2937"/>
+<text x="450.0" y="342.0" text-anchor="middle" font-family="'Segoe UI', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="600" letter-spacing="3" fill="#4f9cf9">AI + INTELLIGENCE</text>
+<path id="p7" d="M450 358 V386" fill="none" stroke="#4f9cf9" stroke-opacity=".35" stroke-width="1"/>
+<circle r="3" fill="#4f9cf9"><animateMotion dur="1.6s" begin="0.5s" repeatCount="indefinite"><mpath href="#p7"/></animateMotion><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.15;.85;1" dur="1.6s" begin="0.5s" repeatCount="indefinite"/></circle>
+<rect x="335" y="386" width="230" height="42" rx="10" fill="#11171f" stroke="#1f2937"/>
+<text x="450.0" y="412.0" text-anchor="middle" font-family="'Segoe UI', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="600" letter-spacing="3" fill="#3ddc97">BUSINESS WORK</text>
 </svg>
