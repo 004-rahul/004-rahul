@@ -1,423 +1,212 @@
 <div align="center">
 
-# Rahul Patel
+<img src="./github_profile_assets/hero.gif" width="100%" alt="Rahul Patel — Backend Engineer, AI Systems, Distributed Systems">
 
-### Backend Engineer · AI Systems · Distributed Systems
+<br>
 
-**C# / .NET · AI Engineering · RAG · MCP · Event-Driven Architecture**
-
-<br/>
-
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=20&duration=2800&pause=900&color=58A6FF&center=true&vCenter=true&width=850&lines=Backend+Engineering+%7C+AI+Systems;C%23+%7C+.NET+%7C+ASP.NET+Core;LLMs+%7C+RAG+%7C+MCP+%7C+AI+Agents;Distributed+Systems+%7C+Event-Driven+Architecture;AWS+%7C+PostgreSQL+%7C+Redis+%7C+RabbitMQ;Docker+%7C+CI%2FCD+%7C+Observability)](https://github.com/DenverCoder1/readme-typing-svg)
+<a href="https://www.linkedin.com/in/rahul-patel-889459229/"><img src="https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"></a>
+<a href="mailto:rahulpatel.dev.in@gmail.com"><img src="https://img.shields.io/badge/EMAIL-111827?style=for-the-badge&logo=gmail&logoColor=white"></a>
+<a href="https://github.com/004-rahul"><img src="https://img.shields.io/badge/GITHUB-111827?style=for-the-badge&logo=github&logoColor=white"></a>
 
 </div>
 
 ---
 
-## ⚡ Engineering Profile
+## `// SYSTEMS I BUILD`
+
+I am a backend engineer focused on **production-grade backend and AI systems**.
+
+My direction is not “learn a list of AI tools”. It is to understand what happens underneath them:
+
+**state · execution · failure · data · scale · observability · trade-offs**
+
+My core engineering foundation is **C# / .NET**, with production experience in APIs, databases, event-driven processing and AWS services. I am extending that foundation into **AI engineering, RAG, MCP, distributed systems and production AI backends**.
+
+<div align="center">
+<img src="./github_profile_assets/architecture.gif" width="92%" alt="Animated backend and AI architecture">
+</div>
+
+---
+
+## `// CURRENT ENGINEERING FOCUS`
+
+| Area | Focus |
+|---|---|
+| **AI Engineering** | LLM applications · AI-assisted development · reasoning workflows · RAG · embeddings · vector search · MCP · tool calling · agents |
+| **Backend** | C# · .NET · ASP.NET Core · REST APIs · EF Core · async/await · concurrency · worker services |
+| **Distributed Systems** | Event-driven architecture · queues · RabbitMQ · SQS · retries · idempotency · DLQ · delivery guarantees |
+| **Data** | PostgreSQL · SQL Server · Redis · NoSQL · indexing · transactions · query optimization |
+| **Infrastructure** | Docker · CI/CD · AWS · observability · load testing |
+| **Architecture** | HLD · LLD · SOLID · design patterns · scalability · reliability · failure handling |
+
+---
+
+## `// AI + AGENTIC ENGINEERING`
 
 ```text
-Backend Engineering
-        │
-        ├── C# / .NET / ASP.NET Core
-        ├── REST APIs / EF Core
-        ├── Async / Concurrency / Background Services
-        │
-        ▼
-Distributed Systems
-        │
-        ├── Event-Driven Architecture
-        ├── Queues / Workers
-        ├── Idempotency / Retry / DLQ
-        ├── Redis / RabbitMQ / AWS Messaging
-        │
-        ▼
-AI Systems
-        │
-        ├── LLM Applications
-        ├── AI-assisted Engineering
-        ├── RAG / Embeddings / Vector Search
-        ├── MCP / Tool Calling / Agents
-        │
-        ▼
-Production Engineering
-        │
-        ├── PostgreSQL / SQL Server / NoSQL
-        ├── Docker / CI-CD
-        ├── AWS / Observability
-        ├── Load Testing / Performance
-        └── System Design / HLD / LLD
+                    ┌──────────────┐
+                    │     LLM      │
+                    └──────┬───────┘
+                           │
+                    reasoning / planning
+                           │
+                           ▼
+                    ┌──────────────┐
+                    │ Orchestrator │
+                    └──────┬───────┘
+                           │
+              ┌────────────┼────────────┐
+              ▼            ▼            ▼
+            RAG           MCP        Tools
+              │            │            │
+              ▼            ▼            ▼
+          Retrieval     Context      APIs / DB
+              │
+              ▼
+       grounded response
+       + citations
+       + validation
 ```
 
-## 🧠 Engineering Focus
+### Areas I'm building toward
 
-<table>
-<tr>
-<td width="50%" valign="top">
-
-### Backend
-- C#
-- .NET / ASP.NET Core
-- ASP.NET MVC / Web API
-- Entity Framework Core
-- REST API design
-- Async / Await
-- Concurrency & Multithreading
-- Background Services
-- Dependency Injection
-- Middleware
-
-</td>
-<td width="50%" valign="top">
-
-### AI Engineering
-- LLM applications
-- AI-assisted development
-- AI reasoning workflows
-- Prompt engineering
-- RAG
-- Embeddings
-- Vector search
-- MCP
-- Tool calling
-- AI agents
-
-</td>
-</tr>
-
-<tr>
-<td width="50%" valign="top">
-
-### Distributed Systems
-- Event-driven architecture
-- Message queues
-- RabbitMQ
-- AWS SQS
-- AWS EventBridge
-- Redis
-- Idempotency
-- Retry strategies
-- Dead-letter queues
-- At-least-once delivery
-
-</td>
-<td width="50%" valign="top">
-
-### Data & Infrastructure
-- PostgreSQL
-- SQL Server
-- NoSQL
-- Vector databases
-- Query optimization
-- Indexing
-- Transactions
-- Docker
-- CI/CD
-- AWS
-
-</td>
-</tr>
-</table>
+`LLMs` · `RAG` · `Embeddings` · `Vector Search` · `MCP` · `Tool Calling` · `Agent Workflows` · `Structured Output` · `Guardrails` · `Evaluation`
 
 ---
 
-## 🏗️ What I Build
+## `// DISTRIBUTED BACKEND`
 
-```mermaid
-flowchart LR
-    A[Client] --> B[.NET API]
-    B --> C[Event / Queue]
-    C --> D[Worker Services]
+The interesting part of a backend is not the happy path.
 
-    D --> E[(PostgreSQL)]
-    D --> F[(Redis)]
+It is what happens when:
 
-    D --> G[AI Orchestration]
-    G --> H[LLM]
-    G --> I[RAG]
-    G --> J[MCP / Tools]
+- a worker dies halfway through a job
+- the same message arrives twice
+- a dependency becomes slow
+- the queue backs up
+- a database fails over
+- a retry creates duplicate work
+- traffic grows by 10×
+- the system needs to explain what happened
 
-    C --> K[Retry / DLQ]
-    D --> L[Observability]
-```
-
-### Engineering priorities
-
-**Correctness → Reliability → Scalability → Observability → Performance**
-
-I focus on systems that can be explained from the request path down to the database, queue, worker, failure mode and trade-off.
+That is where I focus my system-design work.
 
 ---
 
-## 🚀 Featured Engineering Work
+## `// FEATURED PROJECTS`
 
-### Distributed Job Processing Platform
+### ⚙️ Distributed Job Processing Platform
 
-A production-style distributed backend focused on:
+**Status:** `BUILDING`
 
-- .NET Web API
-- Worker services
-- Message-driven processing
-- PostgreSQL
-- Redis
-- RabbitMQ / queue-based architecture
-- Idempotent job execution
-- Retry & dead-letter handling
-- Failure recovery
-- Docker
-- CI/CD
-- Observability
-- Load testing
-- p95 / p99 performance measurement
+Production-style distributed backend designed around:
 
-**Architecture**
+`C#` · `.NET` · `PostgreSQL` · `Redis` · `RabbitMQ` · `Worker Services` · `Docker` · `CI/CD`
 
-```text
-                 ┌──────────────┐
-                 │   .NET API   │
-                 └──────┬───────┘
-                        │
-                        ▼
-                 ┌──────────────┐
-                 │ Message Bus  │
-                 └──────┬───────┘
-                        │
-              ┌─────────┴─────────┐
-              ▼                   ▼
-       ┌─────────────┐     ┌─────────────┐
-       │   Worker 1  │     │   Worker 2  │
-       └──────┬──────┘     └──────┬──────┘
-              │                   │
-              └─────────┬─────────┘
-                        ▼
-                 ┌──────────────┐
-                 │  PostgreSQL  │
-                 └──────────────┘
-                        │
-                        ▼
-                 ┌──────────────┐
-                 │    Redis     │
-                 └──────────────┘
+Engineering goals:
 
-        Retry ──► DLQ
-        Metrics ─► Observability
-```
+- idempotent job execution
+- retry policies
+- dead-letter queues
+- worker failure recovery
+- concurrent processing
+- observability
+- load testing
+- p95 / p99 measurements
+- explicit consistency and delivery trade-offs
+
+> The distributed behaviour is the project — not decoration around CRUD.
 
 ---
 
-### AI + RAG Backend
+### 🧠 AI + RAG Backend
 
-AI backend architecture focused on:
+**Status:** `BUILDING`
 
 ```text
 Documents
-    │
-    ▼
+   ↓
 Ingestion
-    │
-    ▼
+   ↓
 Chunking
-    │
-    ▼
+   ↓
 Embeddings
-    │
-    ▼
+   ↓
 Vector Store
-    │
-    ▼
-Retriever
-    │
-    ▼
+   ↓
+Retrieval
+   ↓
+Context Construction
+   ↓
 LLM
-    │
-    ▼
-Grounded Response + Citations
+   ↓
+Grounded Answer + Citations
 ```
 
-Key engineering areas:
+Focus areas:
 
-- Retrieval quality
-- Chunking strategy
-- Embeddings
-- Vector search
-- Context construction
-- Citation generation
-- Evaluation
-- Latency
-- Cost / token efficiency
-- Failure handling
+`retrieval quality` · `chunking` · `embeddings` · `vector search` · `citations` · `evaluation` · `latency` · `token efficiency`
 
 ---
 
-### MCP + Tool-Using AI
+### 🔌 MCP + Tool-Using AI
 
-```text
-                  ┌─────────────┐
-                  │     LLM     │
-                  └──────┬──────┘
-                         │
-                  Tool selection
-                         │
-                         ▼
-                  ┌─────────────┐
-                  │ MCP Client  │
-                  └──────┬──────┘
-                         │
-             ┌───────────┼───────────┐
-             ▼           ▼           ▼
-          Database      API       Files/Tools
-```
+**Status:** `BUILDING`
 
-Focus:
+Exploring the backend side of MCP and tool-using AI:
 
-- MCP concepts
-- Tool discovery
-- Tool invocation
-- Context handling
-- Permissions
-- Failure handling
-- AI backend orchestration
+`tool discovery` · `tool invocation` · `context handling` · `permissions` · `failure handling` · `orchestration`
 
 ---
 
-## ☁️ Production Stack
+## `// PROFESSIONAL FOUNDATION`
 
-<p align="center">
+**4.5+ years of backend engineering**
 
-<img src="https://skillicons.dev/icons?i=cs,dotnet,postgres,redis,rabbitmq,docker,aws,githubactions,git,linux&perline=10" />
+Production experience includes:
 
-</p>
-
-### Core
-
-`C#` · `.NET` · `ASP.NET Core` · `EF Core` · `REST`
-
-### Data
-
-`PostgreSQL` · `SQL Server` · `Redis` · `NoSQL` · `Vector Search`
-
-### Distributed
-
-`RabbitMQ` · `AWS SQS` · `AWS EventBridge` · `Event-Driven Systems`
-
-### AI
-
-`LLMs` · `RAG` · `Embeddings` · `Vector Search` · `MCP` · `Agents`
-
-### Delivery
-
-`Docker` · `CI/CD` · `GitHub Actions` · `AWS` · `Observability`
-
----
-
-## 📊 GitHub Activity
-
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&hide_border=true&rank_icon=github&theme=github_dark" height="170"/>
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_GITHUB_USERNAME&layout=compact&hide_border=true&theme=github_dark" height="170"/>
-
-<br/>
-
-<img src="https://streak-stats.demolab.com?user=YOUR_GITHUB_USERNAME&theme=github-dark-blue&hide_border=true" />
-
-</div>
-
----
-
-## 🐍 Contribution Activity
-
-<div align="center">
-
-![GitHub Contribution Snake](https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/YOUR_GITHUB_USERNAME/output/github-contribution-grid-snake-dark.svg)
-
-</div>
-
----
-
-## 📈 Engineering Direction
-
-```text
-.NET Backend
-     │
-     ├── Runtime & Internals
-     ├── Concurrency
-     ├── Database Internals
-     └── API Engineering
-             │
-             ▼
-     Distributed Systems
-             │
-             ├── Messaging
-             ├── Caching
-             ├── Reliability
-             └── System Design
-                     │
-                     ▼
-                 AI Systems
-                     │
-                     ├── LLMs
-                     ├── RAG
-                     ├── MCP
-                     ├── Agents
-                     └── AI Workflows
-                             │
-                             ▼
-                     Production AI Backend
-```
-
----
-
-## 🧩 Engineering Principles
-
-```text
-Build systems, not demos.
-
-Understand the mechanism, not only the API.
-
-Measure before optimizing.
-
-Design for failure.
-
-Make distributed behaviour explicit.
-
-Prefer simple architecture until scale requires complexity.
-
-Know the trade-off behind every technology choice.
-```
-
----
-
-## 💼 Professional Experience
-
-**Backend Engineer — 4.5+ years**
-
-Production experience across:
-
-- Enterprise .NET applications
-- Large-scale SaaS
-- eDiscovery / LegalTech
+- C# / .NET backend systems
+- ASP.NET / ASP.NET Core
 - REST APIs
-- Event-driven processing
-- AWS messaging
-- SQL Server & PostgreSQL
-- Query and index optimization
-- Real-time communication
-- Payment integrations
-- Third-party APIs
+- SQL Server / PostgreSQL
+- Redis
+- RabbitMQ
+- AWS SQS / EventBridge / SES
+- event-driven processing
+- performance optimization
+- real-time systems
+- third-party API integrations
 
-One example from production: an email-processing pipeline was redesigned from sequential processing into an event-driven AWS pipeline with concurrent consumers, reducing a full processing run from roughly **7–10 hours to 1–1.5 hours**.
+One production example: redesigned an email-processing pipeline into an event-driven AWS architecture with concurrent consumers, reducing a full processing run from roughly **7–10 hours to 1–1.5 hours**.
 
 ---
 
-## 📫 Connect
+## `// ENGINEERING PRINCIPLES`
+
+<div align="center">
+<img src="./github_profile_assets/quote.gif" width="92%" alt="Engineering principle">
+</div>
+
+- **Understand the mechanism, not only the API.**
+- **Measure before optimizing.**
+- **Design for failure.**
+- **Make distributed behaviour explicit.**
+- **Know the trade-off behind every technology choice.**
+- **Build systems that can be defended, not just demonstrated.**
+
+---
+
+## `// GITHUB ACTIVITY`
 
 <div align="center">
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/rahul-patel-889459229)
+<img src="https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&hide_border=true&rank_icon=github&theme=github_dark" height="170">
 
-[![Email](https://img.shields.io/badge/Email-rahulpatel.bca10%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:rahulpatel.bca10@gmail.com)
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_GITHUB_USERNAME&layout=compact&hide_border=true&theme=github_dark" height="170">
+
+<br><br>
+
+<img src="https://streak-stats.demolab.com?user=YOUR_GITHUB_USERNAME&theme=github-dark-blue&hide_border=true">
 
 </div>
 
@@ -425,6 +214,8 @@ One example from production: an email-processing pipeline was redesigned from se
 
 <div align="center">
 
-### Building backend systems that can scale, recover, and reason.
+### Backend systems · AI systems · distributed systems
+
+`BUILD → MEASURE → BREAK → UNDERSTAND → IMPROVE`
 
 </div>
