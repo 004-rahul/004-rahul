@@ -1,0 +1,20 @@
+<svg width="1200" height="260" viewBox="0 0 1200 260" fill="none" xmlns="http://www.w3.org/2000/svg">
+<style>
+.bg{fill:#F8FBFF}.t{font-family:Arial,sans-serif;fill:#26364A;font-weight:700}.s{font-family:Arial,sans-serif;fill:#65758A}.box{fill:white;stroke:#D7E4F0}.core{animation:b 4s ease-in-out infinite;transform-box:fill-box;transform-origin:center}@keyframes b{50%{transform:translateY(-5px)}}.flow{stroke-dasharray:7 10;animation:f 2.5s linear infinite}@keyframes f{to{stroke-dashoffset:-60}}
+</style>
+<rect width="1200" height="260" rx="18" class="bg"/>
+<rect x="30" y="35" width="275" height="190" rx="15" class="box"/>
+<rect x="895" y="35" width="275" height="190" rx="15" class="box"/>
+<text x="58" y="70" class="t" font-size="17">EXISTING SYSTEMS</text>
+<text x="58" y="104" class="s" font-size="14">CRM</text><text x="58" y="132" class="s" font-size="14">ERP</text><text x="58" y="160" class="s" font-size="14">DATABASES</text><text x="58" y="188" class="s" font-size="14">APIs / TOOLS</text>
+<text x="923" y="70" class="t" font-size="17">AI CAPABILITIES</text>
+<text x="923" y="104" class="s" font-size="14">LLMs</text><text x="923" y="132" class="s" font-size="14">MCP / TOOLS</text><text x="923" y="160" class="s" font-size="14">WORKFLOWS</text><text x="923" y="188" class="s" font-size="14">BUSINESS ACTIONS</text>
+<path d="M305 130H455" stroke="#1677FF" stroke-width="3" class="flow"/><path d="M745 130H895" stroke="#18A999" stroke-width="3" class="flow"/>
+<g class="core">
+<path d="M455 105L600 70L745 105L600 140L455 105Z" fill="#7657FF"/>
+<path d="M455 105V143L600 178L745 143V105L600 140L455 105Z" fill="#2E8BFF" opacity=".8"/>
+<path d="M455 143V181L600 216L745 181V143L600 178L455 143Z" fill="#16A66F" opacity=".85"/>
+<text x="557" y="120" fill="white" font-family="Arial" font-size="18" font-weight="800">PROJECT ZERO</text>
+</g>
+<text x="520" y="242" class="t" font-size="14">INTEGRATE  •  AUTOMATE  •  SCALE</text>
+</svg>

@@ -1,179 +1,158 @@
 <div align="center">
 
-<img src="./assets/hero.svg" width="100%" alt="Rahul Patel — Backend Engineer and AI Systems">
+# RAHUL PATEL
 
-<br><br>
+### Backend Engineer
 
-<a href="https://github.com/YOUR_GITHUB_USERNAME"><img src="https://img.shields.io/badge/GITHUB-0B1020?style=for-the-badge&logo=github&logoColor=white"></a>
-<a href="https://www.linkedin.com/in/YOUR_LINKEDIN"><img src="https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"></a>
-<a href="mailto:YOUR_EMAIL"><img src="https://img.shields.io/badge/EMAIL-0B1020?style=for-the-badge&logo=gmail&logoColor=white"></a>
+**C# / .NET · AWS · MSSQL · Distributed Systems · AI**
 
-</div>
+Building production backend systems and AI-native software systems that solve real business problems at scale.
 
----
-
-## `// SYSTEMS I BUILD`
-
-**Backend Engineer focused on production systems, distributed execution and AI engineering.**
-
-My foundation is **C# / .NET**. My current direction is:
-
-**.NET Backend → Distributed Systems → AI Systems → Production AI Backends**
-
-I care about what happens underneath the abstraction:
-
-`state` · `execution` · `context` · `failure` · `data` · `scale` · `observability` · `trade-offs`
-
----
-
-## `// ENGINEERING SIGNAL`
-
-<div align="center">
-
-| 🧠 AI SYSTEMS | ⚙️ BACKEND | 🌐 DISTRIBUTED | ☁️ PRODUCTION |
-|:---:|:---:|:---:|:---:|
-| LLMs | C# / .NET | Event-driven | Docker |
-| RAG | ASP.NET Core | RabbitMQ | CI/CD |
-| MCP | REST / EF Core | SQS | AWS |
-| Agents | Async / Workers | Redis | Observability |
-| Embeddings | System Design | Retry / DLQ | Load Testing |
+[LinkedIn](https://www.linkedin.com/in/rahul-patel-889459229/) · [Email](mailto:rahulpatel.dev.in@gmail.com)
 
 </div>
 
----
-
-<div align="center">
-<img src="./assets/ai-engine.svg" width="96%" alt="AI engineering architecture">
-</div>
-
-## `// AI + AGENTIC ENGINEERING`
-
-**LLMs · Reasoning Workflows · RAG · Embeddings · Vector Search · MCP · Tool Calling · Agents**
-
-The target is not “knowing AI tools”.
-
-It is building backends where an AI system can:
-
-**retrieve → reason → call tools → validate → recover → produce grounded output**
+<p align="center">
+  <img src="./assets/engineering-signal.svg" alt="Engineering systems visualization" width="100%"/>
+</p>
 
 ---
 
-<div align="center">
-<img src="./assets/distributed-system.svg" width="96%" alt="Distributed backend architecture">
-</div>
+## WHAT I HAVE SHIPPED
 
-## `// DISTRIBUTED SYSTEMS`
+Real production problems turned into measurable improvements.
 
-I focus on the failure paths that separate a demo from a real backend:
+| Production work | Result |
+|---|---|
+| **Email processing pipeline** | **7–10 hours → ~1–1.5 hours** · ~80% faster |
+| **Document eligibility processing** | **3M → 6M documents** · **15–20 min → 3–4 min** |
+| **Query optimization** | **11 similar queries → 2 set-based executions** |
 
-- duplicate messages
-- worker failure
-- retries
-- idempotency
-- dead-letter queues
-- backpressure
-- concurrency
-- consistency
-- observability
-- p95 / p99 performance
+Production work includes high-volume ingestion, multi-tenant SaaS, APIs, background processing, SQL optimization, queue-based processing, event-driven systems and third-party integrations.
+
+<p align="center">
+  <img src="./assets/impact.svg" alt="Production impact" width="92%"/>
+</p>
 
 ---
 
-## `// RAG ENGINEERING`
+## SYSTEMS I WORK WITH
+
+- **Multi-tenant SaaS**
+- **High-volume ingestion**
+- **Multi-million document/data workloads**
+- **Event-driven processing**
+- **Queue and background workers**
+- **Real-time communication**
+- **Third-party integrations**
+- **Secure and reliable backend systems**
+
+---
+
+## TECHNICAL SKILLS
+
+### Backend & Frameworks
+`C#` ` .NET Core` `ASP.NET Core` `ASP.NET MVC` `ASP.NET Web API` `EF Core` `LINQ` `Dependency Injection` `Middleware` `Async/Await` `Concurrency` `Multithreading` `Background Services`
+
+### Data & Storage
+`MSSQL` `PostgreSQL` `T-SQL` `Stored Procedures` `Query Optimization` `Indexing` `Execution Plans` `Redis` `Caching`
+
+### Cloud & Messaging
+`AWS` `SES` `EventBridge` `SQS` `RabbitMQ` `Event-Driven Architecture` `Queue-Based Processing` `Concurrent Consumers`
+
+### API, Security & Integrations
+`REST APIs` `Swagger` `JWT` `OAuth 2.0` `Role-Based Access` `SignalR` `WebSockets` `FCM` `Stripe` `PayPal` `CCAvenue` `Vonage` `Google Maps` `Third-Party APIs`
+
+### Engineering
+`SOLID` `Design Patterns` `Unit Testing` `xUnit` `Code Review` `Debugging` `Performance Optimization` `Agile/Scrum` `SDLC`
+
+---
+
+## TOOLCHAIN
+
+`VS Code` · `Visual Studio` · `Git` · `GitHub` · `Docker` · `Postman` · `SQL Server / SSMS` · `pgAdmin` · `AWS` · `Azure DevOps / TFS`
+
+---
+
+## ENGINEERING DEPTH
+
+### C# / .NET
+OOP · SOLID · Generics & Collections · LINQ · Async/Concurrency · Memory & Runtime · Design Patterns · Middleware · Dependency Injection
+
+### DSA & Problem Solving
+Data Structures · Algorithms · Big-O · Arrays · Strings · Hashing · Trees · Graphs · Recursion · Dynamic Programming · Pattern Recognition
+
+### System Design & Architecture
+Distributed Systems · Scalability · Reliability · Caching · Messaging · Rate Limiting · Idempotency · Retries · Circuit Breakers · High Availability · Microservices · Event-Driven Architecture · Observability · Design Trade-offs
+
+### Engineering Practice
+Debugging · Performance Analysis · Unit Testing · Code Review · Security · Production Troubleshooting · Technical Trade-offs · Technical Communication
+
+---
+
+## AI ENGINEERING
+
+AI is the direction I am building toward from a backend engineering foundation.
+
+**LLM fundamentals**  
+Model interaction · tokens · context windows · prompt engineering · model parameters · local models · model selection
+
+**LLM application engineering**  
+LLM API integration · structured output · tool/function calling · streaming · model routing
+
+**RAG & retrieval**  
+Embeddings · chunking · vector search · semantic search · hybrid search · reranking · pgvector · grounded generation
+
+**Agentic systems**  
+MCP · tool use · memory · planning · multi-agent workflows · guardrails · prompt-injection awareness · AI monitoring
+
+**Platforms / local AI**  
+Azure OpenAI · Ollama · LM Studio
+
+---
+
+## PROJECT ZERO
+
+<p align="center">
+  <img src="./assets/project-zero.svg" alt="Project Zero" width="88%"/>
+</p>
+
+**Project Zero** is a personal SaaS-level project focused on helping organizations integrate AI with their existing systems and automate daily work through intelligent workflows.
+
+> Public profile view: high-level only. Internal strategy, architecture decisions and private product details are intentionally not included here.
+
+---
+
+## AI × BACKEND
 
 ```text
-DOCUMENTS
-   ↓
-INGESTION
-   ↓
-CHUNKING
-   ↓
-EMBEDDINGS
-   ↓
-VECTOR STORE
-   ↓
-RETRIEVAL
-   ↓
-CONTEXT
-   ↓
-LLM
-   ↓
-GROUNDED RESPONSE
-   ↓
-CITATIONS + EVALUATION
+BACKEND ENGINEERING
+APIs · Data · Queues · Caching · Distributed Systems · Security
+                         │
+                         ▼
+                  AI BACKEND SYSTEMS
+          LLMs · Retrieval · RAG · Tools · MCP
+                         │
+                         ▼
+                    PROJECT ZERO
 ```
 
-Focus:
-
-`retrieval quality` · `chunking` · `embeddings` · `vector search` · `context limits` · `citations` · `evaluation` · `latency` · `token efficiency`
-
 ---
 
-<div align="center">
-<img src="./assets/projects.svg" width="96%" alt="Animated project showcase">
-</div>
+## ENGINEERING COMMUNICATION
 
-## `// SYSTEMS IN DEVELOPMENT`
+I focus on being able to explain:
 
-### ⚡ Distributed Job Processing Platform
+**The problem → the trade-off → the failure → the decision → the result**
 
-`C#` · `.NET` · `PostgreSQL` · `Redis` · `RabbitMQ` · `Workers` · `Docker` · `CI/CD`
-
-**Idempotency · Retry · DLQ · Failure Recovery · Observability · Load Testing**
-
-### 🧠 AI + RAG Backend
-
-`LLM` · `Embeddings` · `Vector Search` · `Retrieval` · `Citations` · `Evaluation`
-
-### 🔌 MCP + Tool-Using AI
-
-`Tool Discovery` · `Tool Invocation` · `Context` · `Permissions` · `Orchestration`
-
----
-
-## `// PROFESSIONAL FOUNDATION`
-
-**4.5+ years of backend engineering**
-
-Production experience with:
-
-`C#` · `.NET` · `ASP.NET Core` · `REST APIs` · `SQL Server` · `PostgreSQL` · `Redis` · `RabbitMQ` · `AWS` · `SQS` · `EventBridge`
-
-One production example: an email-processing pipeline was redesigned into an event-driven AWS architecture with concurrent consumers, reducing a full processing run from roughly **7–10 hours to 1–1.5 hours**.
-
----
-
-## `// STACK`
-
-<div align="center">
-
-<img src="https://skillicons.dev/icons?i=cs,dotnet,postgres,redis,rabbitmq,docker,aws,githubactions,git,linux&perline=10">
-
-<br><br>
-
-<img src="https://img.shields.io/badge/AI-LLMs%20%7C%20RAG%20%7C%20MCP-111827?style=for-the-badge&logo=openai&logoColor=white">
-<img src="https://img.shields.io/badge/Architecture-HLD%20%7C%20LLD%20%7C%20Distributed-111827?style=for-the-badge">
-<img src="https://img.shields.io/badge/Engineering-Performance%20%7C%20Reliability%20%7C%20Observability-111827?style=for-the-badge">
-
-</div>
-
----
-
-## `// GITHUB ACTIVITY`
-
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&hide_border=true&rank_icon=github&theme=github_dark" height="170">
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_GITHUB_USERNAME&layout=compact&hide_border=true&theme=github_dark" height="170">
-
-</div>
+DSA reasoning · system design discussions · production incident analysis · technical trade-offs · code review · clear collaboration
 
 ---
 
 <div align="center">
 
-### `BUILD → MEASURE → BREAK → UNDERSTAND → IMPROVE`
+### Backend systems first. AI systems next.
 
-**Backend Systems · Distributed Systems · AI Systems**
+[LinkedIn](https://www.linkedin.com/in/rahul-patel-889459229/) · [rahulpatel.dev.in@gmail.com](mailto:rahulpatel.dev.in@gmail.com)
 
 </div>
