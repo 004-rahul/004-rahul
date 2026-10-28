@@ -4,12 +4,14 @@ Brand icons are drawn from [Devicon](https://github.com/devicons/devicon) under 
 
 Project, card, messaging and workflow illustrations are original generic line icons, not company logos. All SVGs contain their vector artwork locally and do not request remote assets.
 
+The Microsoft SQL Server tile uses the SQL Server Management Studio application icon extracted from the user's installed Microsoft application. This artwork belongs to Microsoft and is not covered by the Devicon or Simple Icons licenses above.
+
 ## Source files
 
 - csharp: https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg
 - redis: https://raw.githubusercontent.com/devicons/devicon/master/icons/redis/redis-original.svg
 - rabbitmq: https://raw.githubusercontent.com/devicons/devicon/master/icons/rabbitmq/rabbitmq-original.svg
-- microsoftsqlserver: https://raw.githubusercontent.com/devicons/devicon/master/icons/microsoftsqlserver/microsoftsqlserver-original.svg
+- microsoftsqlserver: https://learn.microsoft.com/ssms/
 - firebase: https://raw.githubusercontent.com/devicons/devicon/master/icons/firebase/firebase-original.svg
 - visualstudio: https://raw.githubusercontent.com/devicons/devicon/master/icons/visualstudio/visualstudio-original.svg
 - postgresql: https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg
