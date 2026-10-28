@@ -1,148 +1,81 @@
-<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./light.svg">
+  <img src="./dark.svg" width="1180" alt="Rahul Patel — .NET backend engineer in Surat, India. REST APIs, AWS messaging, SQL performance, and enterprise applications.">
+</picture>
 
-<img src="assets/hero.svg" width="100%" alt="Rahul Patel, Backend Engineer. C# / .NET, AWS, SQL, distributed systems, AI." />
+I'm **Rahul Patel**, a backend engineer based in **Surat, India**. I build C#/.NET APIs, background services, and SQL-backed applications across legal technology, healthcare, and education.
 
-</div>
+My work connects the database, API, and background worker: designing endpoints, integrating services, tracing production issues, and improving expensive queries.
 
-<br>
+## Engineering focus
 
-## What I have shipped
+- **Backend applications:** ASP.NET Core, ASP.NET MVC, REST APIs, EF Core, and LINQ.
+- **Asynchronous processing:** AWS SES, SQS, EventBridge, concurrent background services, and dead-letter handling.
+- **Database performance:** SQL Server and PostgreSQL query tuning, indexes, execution plans, and pagination.
+- **Integrations:** real-time messaging, notifications, payments, and video consultations.
 
-<img src="assets/shipped.svg" width="100%" alt="Email processing cut from 7-10 hours to about 1-1.5 hours (about 80% faster). Documents grew from 3M to 6M while processing went from 15-20 minutes to 3-4 minutes, and 11 queries became 2 set-based executions." />
+## Experience
 
-Production work across high-volume ingestion, multi-tenant SaaS, APIs, background processing, SQL optimization and event-driven systems.
+### Casepoint · Software Engineer
 
-<br>
+**May 2025 – Present · Surat, India**
 
-## Systems I work with
+Build backend features for an eDiscovery and FOIA platform, including document and email ingestion, multilingual processing, and legacy code modernization.
 
-| | |
-|---|---|
-| **Multi-tenant SaaS** | **Event-driven processing** |
-| **High-volume ingestion** | **Background / queue workers** |
-| **Multi-million document data** | **Real-time communication** |
-| **Third-party integrations** | |
+- Reduced an email-processing job from **7–10 hours to 1–1.5 hours** with concurrent preparation and sending using C# and AWS services.
+- Consolidated eleven similar document-eligibility queries into two set-based executions. The earlier job took **15–20 minutes over 3 million documents**; the revised job took **3–4 minutes over 6 million**.
+- Develop REST endpoints and background services, tune SQL, and collaborate with product and QA through Scrum and peer code review.
 
-<br>
+### Vision Infotech · Junior .NET Developer
 
-## Engineering depth
+**February 2024 – April 2025 · Navsari, India**
 
-<table>
-<tr>
-<td valign="top" width="25%">
+Delivered backend modules for telehealth and employee-management applications, from client requirements and database schema to REST APIs and production fixes.
 
-**C# / .NET**<br>
-OOP · SOLID · Generics · LINQ · EF Core · Async / Await · Concurrency · Multithreading · Memory / Runtime · Dependency Injection · Middleware · Background Services
+- Built web and mobile APIs, SignalR messaging, and Firebase call notifications for VCDoctor.
+- Integrated Stripe and PayPal payments and Vonage video consultations.
+- Developed HRMS employee-management and payroll APIs; improved data retrieval through SQL tuning and server-side pagination.
 
-</td>
-<td valign="top" width="25%">
+### Zibma Infotech · .NET Developer
 
-**Problem solving**<br>
-DSA · Algorithms · Big-O · Arrays · Strings · Hashing · Trees · Graphs · Sliding Window · Two Pointers · Recursion · Dynamic Programming
+**December 2021 – January 2024 · Surat, India**
 
-</td>
-<td valign="top" width="25%">
+Built and maintained school ERP modules on a shared ASP.NET codebase serving multiple educational institutions.
 
-**System design**<br>
-Distributed Systems · Caching · Messaging · Queues · Rate Limiting · Idempotency · Retries · Circuit Breakers · High Availability · Scalability · Observability · Microservices · CQRS · Event-driven Architecture
+- Developed .NET Core APIs, school-specific features, role-based access, and reporting.
+- Integrated fee payments, Google Maps, and Firebase notifications.
+- Tuned queries, stored procedures, and indexes, and resolved production issues.
 
-</td>
-<td valign="top" width="25%">
+## Selected professional projects
 
-**Engineering practice**<br>
-Debugging · Performance Optimization · Code Review · Unit Testing · xUnit · API Design · Security · Production Troubleshooting · Technical Trade-offs
+These projects were delivered through my employers.
 
-</td>
-</tr>
-</table>
+| Project | Contribution | Technologies |
+| --- | --- | --- |
+| **VCDoctor** · Vision Infotech client project | Telehealth APIs for web and mobile, one-to-one messaging, call notifications, payments, and video consultations | ASP.NET MVC, SQL Server, SignalR, Firebase, Vonage, Stripe, PayPal |
+| **HRMS** · Vision Infotech | Employee-management and payroll APIs supporting an Angular frontend; SQL optimization and pagination | .NET Core Web API, SQL Server, Angular |
+| **Zibma School ERP** · Zibma Infotech | APIs, role-based reporting, fee-payment integrations, and attendance and announcement notifications | ASP.NET, .NET Core Web API, SQL Server, Firebase |
 
-<br>
+## Engineering stack
 
-## Technical system
+| Area | Technologies & practices |
+| --- | --- |
+| Languages | C#, T-SQL / SQL, JavaScript |
+| Backend | .NET, .NET Core, ASP.NET Core, ASP.NET MVC, Web API, EF Core, LINQ |
+| Data | SQL Server, PostgreSQL, stored procedures, indexing, execution plans |
+| Cloud & messaging | AWS SES, SQS, EventBridge; Redis, RabbitMQ |
+| APIs & integrations | REST, JWT, OAuth 2.0, role-based access, SignalR, Firebase Cloud Messaging |
+| Delivery & tools | Git, GitHub, Azure DevOps, Postman, Visual Studio, SSMS, xUnit, Scrum, code review |
 
-| | |
-|---|---|
-| **Backend** | C# · .NET Core · .NET Framework · ASP.NET Core · ASP.NET MVC · ASP.NET Web API · EF Core · LINQ |
-| **Data** | SQL Server · PostgreSQL · T-SQL · Stored Procedures · Indexing · Execution Plans · Query Optimization · Redis · Caching |
-| **Cloud / Messaging** | AWS · SES · EventBridge · SQS · RabbitMQ · Event-driven Systems · Queue-based Processing |
-| **API / Security** | REST · Swagger · JWT · OAuth 2.0 · Role-based Access |
-| **Integrations** | SignalR · WebSockets · FCM · Stripe · PayPal · CCAvenue · Vonage · Google Maps · Third-party APIs |
+## Currently deepening
 
-<br>
+Alongside my professional work, I'm studying .NET runtime internals, async/await, garbage collection, thread pools, the ASP.NET Core request pipeline, distributed-system delivery guarantees and idempotency, SQL internals, and data structures and algorithms.
 
-## Toolchain
+## Education
 
-| Build | Data | Delivery | Test / Debug |
-|---|---|---|---|
-| Visual Studio | SQL Server | Docker | Postman |
-| VS Code | PostgreSQL | AWS | xUnit |
-| Git | pgAdmin | Azure DevOps | |
-| GitHub | SSMS | TFS | |
-| | Redis | | |
-
-<br>
-
-## AI engineering
-
-Knowledge areas I'm building toward AI backend systems with.
-
-<table>
-<tr>
-<td valign="top" width="25%">
-
-**LLM fundamentals**<br>
-LLM API Integration · Input / Output · Tokens · Context Windows · Prompt / Response · Model Parameters · Model Selection · Local Models
-
-</td>
-<td valign="top" width="25%">
-
-**AI applications**<br>
-AI-assisted Development · LLM Integration · Structured Output · Tool Calling · Function Calling · Streaming · Model Routing
-
-</td>
-<td valign="top" width="25%">
-
-**Retrieval**<br>
-Embeddings · Chunking · Vector Search · Semantic Search · Hybrid Search · RAG · Re-ranking · pgvector
-
-</td>
-<td valign="top" width="25%">
-
-**Agentic systems**<br>
-MCP · Agentic AI · Memory · Planning · Tool Use · Multi-Agent Workflows · Guardrails · Prompt Injection · AI Monitoring
-
-</td>
-</tr>
-</table>
-
-<br>
-
-## Project Zero
-
-**AI-native software infrastructure for organizations.**
-
-A SaaS-level platform focused on connecting AI with existing business systems and turning AI capabilities into useful organizational workflows.
-
-<img src="assets/project-zero.svg" width="100%" alt="Project Zero connects existing business systems (data, tools, knowledge) to AI and intelligence, producing business work." />
-
-<br>
-
-## AI × Backend
-
-<img src="assets/ai-backend.svg" width="100%" alt="Backend engineering (APIs, data, queues, caching, distributed systems, security) leads to AI backend systems (LLMs, retrieval, RAG, tools, MCP, agents), which leads to Project Zero." />
-
-<br>
-
-## Engineering communication
-
-Explain the problem. Explain the trade-off. Explain the failure. Explain the decision. Explain the result.
-
-DSA reasoning · System design discussion · Production incident analysis · Technical trade-offs · STAR-based experience · Code review · Cross-functional communication
-
-<br>
+**Bachelor of Computer Applications** · Veer Narmad South Gujarat University, Surat, India · **2017–2020**
 
 ## Connect
 
-**Rahul Patel** · Backend Engineer · AI Backend Systems
-
-[LinkedIn](https://www.linkedin.com/in/rahul-patel-889459229) · [rahulpatel.dev.in@gmail.com](mailto:rahulpatel.dev.in@gmail.com)
+[LinkedIn](https://www.linkedin.com/in/rahul-patel-889459229)
