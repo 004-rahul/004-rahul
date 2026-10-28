@@ -27,7 +27,6 @@ Project, card, messaging and workflow illustrations are original generic line ic
 - bootstrap: https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-original.svg
 - githubcopilot: https://raw.githubusercontent.com/devicons/devicon/master/icons/githubcopilot/githubcopilot-original.svg
 - amazonwebservices: https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original.svg
-- angular: https://raw.githubusercontent.com/devicons/devicon/master/icons/angular/angular-original.svg
 - github: https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original.svg
 - stripe: https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/stripe.svg
 - paypal: https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/paypal.svg
