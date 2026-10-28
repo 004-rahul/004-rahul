@@ -1,81 +1,99 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="./light.svg">
-  <img src="./dark.svg" width="1180" alt="Rahul Patel — .NET backend engineer in Surat, India. REST APIs, AWS messaging, SQL performance, and enterprise applications.">
+  <img src="./dark.svg" width="1180" alt="Rahul Patel — Software Engineer with five years of experience. Enterprise software, service integrations and AI workflows.">
 </picture>
 
-I'm **Rahul Patel**, a backend engineer based in **Surat, India**. I build C#/.NET APIs, background services, and SQL-backed applications across legal technology, healthcare, and education.
+<p>
+  <a href="https://github.com/004-rahul"><img src="./assets/github.svg" width="132" alt="GitHub profile"></a>
+  <a href="https://www.linkedin.com/in/rahul-patel-889459229"><img src="./assets/linkedin.svg" width="132" alt="Connect on LinkedIn"></a>
+</p>
 
-My work connects the database, API, and background worker: designing endpoints, integrating services, tracing production issues, and improving expensive queries.
+I’m **Rahul**, a Software Engineer working with **.NET, cloud services, and AI integrations**. My experience spans legal technology, healthcare, employee management, and education—from building application features to connecting services and supporting software in production.
 
-## Engineering focus
+## 🧰 Technology & tools
 
-- **Backend applications:** ASP.NET Core, ASP.NET MVC, REST APIs, EF Core, and LINQ.
-- **Asynchronous processing:** AWS SES, SQS, EventBridge, concurrent background services, and dead-letter handling.
-- **Database performance:** SQL Server and PostgreSQL query tuning, indexes, execution plans, and pagination.
-- **Integrations:** real-time messaging, notifications, payments, and video consultations.
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/stack-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/stack-light.svg">
+  <img src="./assets/stack-dark.svg" width="1180" alt="Backend and data: C#, .NET, ASP.NET Core, MVC, EF Core, LINQ, SQL Server, PostgreSQL. Cloud and messaging: AWS, Redis, RabbitMQ, Firebase. Tools: Git, GitHub, Docker, Azure DevOps, Visual Studio, Postman. Frontend foundations: JavaScript, HTML, CSS, Bootstrap, jQuery, Angular.">
+</picture>
 
-## Experience
+**Delivery:** Azure DevOps and team CI/CD workflows at work; Docker and CI/CD in personal projects.
 
-### Casepoint · Software Engineer
+## 🧩 Projects I’ve worked on
 
-**May 2025 – Present · Surat, India**
+<table>
+<tr>
+<td width="50%" valign="top">
+<img src="./assets/project-legal.svg" width="36" alt="">
+<h3>eDiscovery &amp; FOIA platform</h3>
+<p>Backend modules for document and email ingestion, request workflows, multilingual processing, background services, and database performance.</p>
+<p><code>.NET</code> <code>SQL Server / PostgreSQL</code> <code>AWS</code></p>
+<p><sub>Professional work · Casepoint</sub></p>
+</td>
+<td width="50%" valign="top">
+<img src="./assets/project-health.svg" width="36" alt="">
+<h3>VCDoctor · Telehealth</h3>
+<p>Web and mobile APIs with one-to-one messaging, call notifications, payments, and video-consultation integrations.</p>
+<p><code>ASP.NET MVC</code> <code>SignalR</code> <code>Firebase</code></p>
+<p><sub>Client project · Vision Infotech</sub></p>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<img src="./assets/project-people.svg" width="36" alt="">
+<h3>HRMS · Employee management</h3>
+<p>Employee-management and payroll functionality through .NET Core APIs for an Angular frontend, with SQL optimization and server-side pagination.</p>
+<p><code>.NET Core Web API</code> <code>SQL Server</code> <code>Angular</code></p>
+<p><sub>Professional work · Vision Infotech</sub></p>
+</td>
+<td width="50%" valign="top">
+<img src="./assets/project-school.svg" width="36" alt="">
+<h3>Zibma School ERP</h3>
+<p>School-specific features, role-based reports, fee payments, location services, and attendance and announcement notifications across a shared application.</p>
+<p><code>ASP.NET</code> <code>.NET Core</code> <code>SQL Server</code></p>
+<p><sub>Professional work · Zibma Infotech</sub></p>
+</td>
+</tr>
+</table>
 
-Build backend features for an eDiscovery and FOIA platform, including document and email ingestion, multilingual processing, and legacy code modernization.
+## 🔌 Services I’ve integrated
 
-- Reduced an email-processing job from **7–10 hours to 1–1.5 hours** with concurrent preparation and sending using C# and AWS services.
-- Consolidated eleven similar document-eligibility queries into two set-based executions. The earlier job took **15–20 minutes over 3 million documents**; the revised job took **3–4 minutes over 6 million**.
-- Develop REST endpoints and background services, tune SQL, and collaborate with product and QA through Scrum and peer code review.
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/integrations-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/integrations-light.svg">
+  <img src="./assets/integrations-dark.svg" width="1180" alt="Integration experience: Stripe, PayPal, CCAvenue, Vonage, SignalR, Firebase Cloud Messaging, Google Maps, and AWS SES, SQS and EventBridge.">
+</picture>
 
-### Vision Infotech · Junior .NET Developer
-
-**February 2024 – April 2025 · Navsari, India**
-
-Delivered backend modules for telehealth and employee-management applications, from client requirements and database schema to REST APIs and production fixes.
-
-- Built web and mobile APIs, SignalR messaging, and Firebase call notifications for VCDoctor.
-- Integrated Stripe and PayPal payments and Vonage video consultations.
-- Developed HRMS employee-management and payroll APIs; improved data retrieval through SQL tuning and server-side pagination.
-
-### Zibma Infotech · .NET Developer
-
-**December 2021 – January 2024 · Surat, India**
-
-Built and maintained school ERP modules on a shared ASP.NET codebase serving multiple educational institutions.
-
-- Developed .NET Core APIs, school-specific features, role-based access, and reporting.
-- Integrated fee payments, Google Maps, and Firebase notifications.
-- Tuned queries, stored procedures, and indexes, and resolved production issues.
-
-## Selected professional projects
-
-These projects were delivered through my employers.
-
-| Project | Contribution | Technologies |
-| --- | --- | --- |
-| **VCDoctor** · Vision Infotech client project | Telehealth APIs for web and mobile, one-to-one messaging, call notifications, payments, and video consultations | ASP.NET MVC, SQL Server, SignalR, Firebase, Vonage, Stripe, PayPal |
-| **HRMS** · Vision Infotech | Employee-management and payroll APIs supporting an Angular frontend; SQL optimization and pagination | .NET Core Web API, SQL Server, Angular |
-| **Zibma School ERP** · Zibma Infotech | APIs, role-based reporting, fee-payment integrations, and attendance and announcement notifications | ASP.NET, .NET Core Web API, SQL Server, Firebase |
-
-## Engineering stack
-
-| Area | Technologies & practices |
+| What the application needed | Integrations |
 | --- | --- |
-| Languages | C#, T-SQL / SQL, JavaScript |
-| Backend | .NET, .NET Core, ASP.NET Core, ASP.NET MVC, Web API, EF Core, LINQ |
-| Data | SQL Server, PostgreSQL, stored procedures, indexing, execution plans |
-| Cloud & messaging | AWS SES, SQS, EventBridge; Redis, RabbitMQ |
-| APIs & integrations | REST, JWT, OAuth 2.0, role-based access, SignalR, Firebase Cloud Messaging |
-| Delivery & tools | Git, GitHub, Azure DevOps, Postman, Visual Studio, SSMS, xUnit, Scrum, code review |
+| Payments and school fees | Stripe, PayPal, CCAvenue |
+| Real-time messaging and video consultations | SignalR, Vonage |
+| Call alerts, attendance and announcement notifications | Firebase Cloud Messaging |
+| Location features | Google Maps |
+| Email and asynchronous processing | AWS SES, SQS, EventBridge |
 
-## Currently deepening
+## 🤖 AI integrations & development workflow
 
-Alongside my professional work, I'm studying .NET runtime internals, async/await, garbage collection, thread pools, the ASP.NET Core request pipeline, distributed-system delivery guarantees and idempotency, SQL internals, and data structures and algorithms.
+I integrate LLM APIs into .NET application flows: send a prompt with input, receive a structured response, and handle the result inside the API.
 
-## Education
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/ai-flow-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/ai-flow-light.svg">
+  <img src="./assets/ai-flow-dark.svg" width="1180" alt="LLM integration flow: .NET API sends a prompt and input to an LLM API, receives a structured response, and handles the result in the application.">
+</picture>
 
-**Bachelor of Computer Applications** · Veer Narmad South Gujarat University, Surat, India · **2017–2020**
+**AI-assisted development:** Claude-based coding as part of my development and SDLC workflow, alongside GitHub Copilot.
 
-## Connect
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/ai-tools-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/ai-tools-light.svg">
+  <img src="./assets/ai-tools-dark.svg" width="640" alt="Claude, GitHub Copilot and Visual Studio Code.">
+</picture>
 
-[LinkedIn](https://www.linkedin.com/in/rahul-patel-889459229)
+---
+
+[Explore my GitHub](https://github.com/004-rahul) · [Connect on LinkedIn](https://www.linkedin.com/in/rahul-patel-889459229)
+
+<!-- Brand-icon sources and licenses are included in assets/CREDITS.md. -->
